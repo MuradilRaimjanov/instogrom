@@ -11,7 +11,7 @@ public interface Service<T> {
 
     void save(T t);
 
-    User findById(int id);
+    T findById(int id);
 
     void update(int id, T t);
 
